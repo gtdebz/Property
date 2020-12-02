@@ -1,0 +1,299 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery ssdCascadingDropDown Plugin Examples</title>
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.3/css/foundation.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+    <style>
+        body {
+
+            padding: 2rem 0;
+
+        }
+        .divider {
+            height: 1.25rem;
+            width: 100%;
+            border-top: dashed 1px #aaa;
+        }
+    </style>
+</head>
+<body>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="http://www.jqueryscript.net/form/Easy-Ajax-enabled-Dependent-Dropdown-Plugin-With-jQuery-ssdCascadingDropDown.html">Download This Plugin</a></li>
+<li><a href="http://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<div class="row" style="margin-top:150px;">
+
+    <div class="column">
+
+
+
+<h1>jQuery ssdCascadingDropDown Plugin Examples</h1>
+
+        <form>
+
+
+            <h2>Product 1</h2>
+
+            <div class="row">
+
+                <div class="medium-6 columns">
+                    <select
+                        name="category"
+                        class="cascadingDropDown"
+
+                        data-group="product-1"
+                        data-target="make"
+                        data-url="data/make.json"
+                        data-replacement="container1"
+
+                        >
+                        <option value="">Select category</option>
+                        <option value="1">Shoes</option>
+                        <option value="2">T-shirts</option>
+                        <option value="3">Jeans</option>
+                        <option value="4">Hats</option>
+                        <option value="5">Belts</option>
+                        </select>
+                </div>
+
+                <div class="medium-6 columns">
+                    <select
+                        name="make"
+                        class="cascadingDropDown"
+
+                        data-group="product-1"
+                        data-id="make"
+                        data-target="colour"
+                        data-url="data/colour.json"
+                        data-replacement="container1"
+                        data-default-label="Select make"
+
+                        disabled
+                        >
+                        </select>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="medium-6 columns">
+                    <select
+                        name="colour"
+                        class="cascadingDropDown"
+
+                        data-group="product-1"
+                        data-id="colour"
+                        data-target="size"
+                        data-url="data/size.json"
+                        data-replacement="container1"
+                        data-default-label="Select colour"
+
+                        disabled
+                        >
+                        </select>
+                </div>
+
+                <div class="medium-6 columns">
+                    <select
+                        name="size"
+                        class="cascadingDropDown"
+
+                        data-group="product-1"
+                        data-id="size"
+                        data-default-label="Select size"
+                        data-replacement="container1"
+                        data-url="data/final.json"
+                        data-final
+                        disabled
+                        >
+                        </select>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="large-4 medium-6 columns large-offset-4 medium-offset-3">
+
+                    <input
+                        type="submit"
+                        class="small button"
+                        value="ADD TO BASKET"
+                        disabled
+                    >
+
+                </div>
+
+            </div>
+
+        </form>
+
+
+        <div
+            class="panel cascadingContainer"
+            data-replacement-container="container1"
+            data-default-content="To see results please make your selection using menus above."
+            ></div>
+
+        <div class="divider"></div>
+
+
+        <form>
+
+
+            <h2>Product 2</h2>
+
+
+            <div class="row">
+
+                <div class="medium-6 columns">
+                    <select
+                            name="category"
+                            class="cascadingDropDown"
+
+                            data-group="product-2"
+                            data-target="make"
+                            data-url="data/make.json"
+                            data-replacement="container2"
+
+                            >
+                        <option value="">Select category</option>
+                        <option value="1">Shoes</option>
+                        <option value="2">T-shirts</option>
+                        <option value="3">Jeans</option>
+                        <option value="4">Hats</option>
+                        <option value="5">Belts</option>
+                    </select>
+                </div>
+
+                <div class="medium-6 columns">
+                    <select
+                            name="make"
+                            class="cascadingDropDown"
+
+                            data-group="product-2"
+                            data-id="make"
+                            data-target="colour"
+                            data-url="data/colour.json"
+                            data-replacement="container2"
+                            data-default-label="Select make"
+
+                            disabled
+                            >
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="medium-6 columns">
+                    <select
+                            name="colour"
+                            class="cascadingDropDown"
+
+                            data-group="product-2"
+                            data-id="colour"
+                            data-target="size"
+                            data-url="data/size.json"
+                            data-replacement="container2"
+                            data-default-label="Select colour"
+
+                            disabled
+                            >
+                    </select>
+                </div>
+
+                <div class="medium-6 columns">
+                    <select
+                            name="size"
+                            class="cascadingDropDown"
+
+                            data-group="product-2"
+                            data-id="size"
+                            data-url="data/final.json"
+                            data-replacement="container2"
+                            data-default-label="Select size"
+
+                            disabled
+                            >
+                    </select>
+                </div>
+
+            </div>
+
+        </form>
+
+        <div
+            class="panel cascadingContainer"
+            data-replacement-container="container2"
+            data-default-content="To see results please make your selection using menus above."
+            ></div>
+
+    </div>
+
+</div>
+
+<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="js/jquery.cascading-drop-down.js"></script>
+<script>
+    $('.cascadingDropDown').ssdCascadingDropDown({
+        nonFinalCallback: function(trigger, props, data, self) {
+
+            trigger.closest('form')
+                    .find('input[type="submit"]')
+                    .attr('disabled', true);
+
+        },
+        finalCallback: function(trigger, props, data) {
+
+            if (props.isValueEmpty()) {
+                trigger.closest('form')
+                        .find('input[type="submit"]')
+                        .attr('disabled', true);
+            } else {
+                trigger.closest('form')
+                        .find('input[type="submit"]')
+                        .attr('disabled', false);
+            }
+
+        }
+    });
+</script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

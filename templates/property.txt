@@ -1,0 +1,119 @@
+
+<div class="container">
+<h1 class="text-center">Contact Address</h1>
+
+  <div class="row">
+    <div class="col-sm-8">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11880.492291371422!2d12.4922309!3d41.8902102!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28f1c82e908503c4!2sColosseo!5e0!3m2!1sit!2sit!4v1524815927977" width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+
+    <div class="col-sm-4" id="contact2">
+        <h3>Head Office</h3>
+      
+        <h5 class="pt-2"> Location</h5>
+        <i class="fa fa-map-marker" style="color:#000"></i> 4, Town Av., Lagos Estate, Nigeria<br>
+        <h5 class="pt-2">Phone</h5>
+        <i class="fa fa-phone" style="color:#000"></i> <a href="tel:+">09077876744 </a><br>
+        <i class="fa fa-whatsapp" style="color:#000"></i> <a href="tel:+">08077678786 </a><br>
+        <h5 class="pt-2">Email</h5>
+        <i class="fa fa-envelope" style="color:#000"></i> <a href="">gbohunmi@gmail.com</a><br>
+      </div>
+  </div>
+</div>
+
+
+
+<br><br>
+<div class="row text-center text-white" id="author" style="background:#033;">
+  <div class="col-12 mt-4 h3">
+  <h3>Gbohunmi. A - CEO</h3>
+</div>
+<div class="col-12 my-2">
+<span>&nbsp;</span> <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin fa-1x" style="color:#0C6"></i></a>
+<span>&nbsp;</span> <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter fa-1x" style="color:#0c6"></i></a>
+<span>&nbsp;</span> <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook fa-1x" style="color:#0c6"></i></a>
+<span>&nbsp;</span> <a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube fa-1x" style="color:#0c6"></i></a>
+</div>
+</div>
+
+
+
+
+<!--end new map-->
+
+
+
+
+
+
+
+
+
+
+<!--start contact us--
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!-- CONTACT SECTION -->
+<!--<section id="contact" class="parallax-section">-->
+<section id="contact">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-12 col-sm-12">
+                    <!-- SECTION TITLE -->
+                    <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
+                         <h2>Get in touch</h2>
+                         <p>Kindly send us your messages and comments.</p>
+                    </div>
+               </div>
+
+                <div class="col-md-7 col-sm-10">
+                   <!-- CONTACT FORM HERE -->
+                  <div class="form-group">
+                        <form id="contact-form" role="form" id="form" action="contact.php" method="post">
+                              <div class="col-md-6 col-sm-6">
+                                   <input type="text" class="form-control" name="name" placeholder="Name" required>
+                              </div>
+                              <div class="col-md-6 col-sm-6">
+                                   <input type="email" class="form-control" name="email" placeholder="Email" required>
+                              </div>
+                             
+                              <div class="col-md-12 col-sm-12">
+                                   <textarea class="form-control" rows="5" name="message" placeholder="Message" required></textarea>
+                              </div>
+                             
+                             
+                              <div class="col-md-offset-8 col-md-4 col-sm-offset-6 col-sm-6">
+                                   <center><button id="submit" type="submit" class="btn btn-sucess btn-block" name="Contact" style="margin-left:210px;">Send</button></center>
+                              </div>
+                             
+                        </form>
+                  </div>
+               </div>
+
+               <div class="col-md-5 col-sm-8">
+                    <!-- CONTACT INFO -->
+                    <div class="wow fadeInUp contact-info" data-wow-delay="0.4s">
+                         <div class="section-title">
+                              <h2>Contact Info</h2>
+                              <p>Head Office...</p>
+                         </div>
+                         
+                         <p><i class="fa fa-map-marker" style="color:#000;"></i> 456 New Street, VI, Lagos City, NIGERIA</p>
+                         <p><i class="fa fa-envelope" style="color:#000;"></></i> <a href="mailto:info@company.com">inforealestate@hotmail.com</a></p>
+                         <p><i class="fa fa-phone" style="color:#000;"></></i> 010-020-0340</p>
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+
+<!--end contact us-->
+
+
